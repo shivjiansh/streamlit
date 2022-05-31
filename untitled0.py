@@ -11,7 +11,7 @@ import pickle
 import streamlit as st
 
 
-loaded_mod = pickle.load(open('/home/shivansh/Downloads/trained_model.sav', 'rb'))
+loaded_mod = pickle.load(open('trained_model.sav', 'rb'))
 
 
 def db_predict(input_data):
