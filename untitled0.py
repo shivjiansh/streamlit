@@ -9,7 +9,7 @@ Created on Mon May 30 14:10:06 2022
 import numpy as np
 import pickle
 import streamlit as st
-
+import sklearn
 
 loaded_mod = pickle.load(open('trained_model.sav', 'rb'))
 
